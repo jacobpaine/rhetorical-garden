@@ -1,0 +1,326 @@
+[
+  {
+    "id": "ad-hominem",
+    "formalName": "Ad Hominem",
+    "plainName": "Attacking the Person",
+    "categoryId": "personal-attack",
+    "tier": 1,
+    "definition": "Rejecting a claim by attacking the character, motive, or traits of the person making it rather than the claim itself.",
+    "example": "\"You can't trust her budget analysis — she's never even run a business.\"",
+    "lookFor": [
+      "An insult or label aimed at the speaker",
+      "A shift from the argument to the arguer's identity or motives",
+      "Words like 'of course he'd say that'"
+    ],
+    "commonConfusions": [
+      "Tu Quoque, which specifically accuses the person of hypocrisy",
+      "Legitimate questioning of a relevant expert's credentials"
+    ]
+  },
+  {
+    "id": "false-dilemma",
+    "formalName": "False Dilemma",
+    "plainName": "Only Two Options",
+    "categoryId": "distorted-choices",
+    "tier": 1,
+    "definition": "Presenting two options as the only possibilities when others exist.",
+    "example": "\"Either we cut the whole program or we go bankrupt.\"",
+    "lookFor": [
+      "'Either / or' with no middle ground",
+      "'If you're not with us, you're against us'",
+      "Reasonable alternatives quietly excluded"
+    ],
+    "commonConfusions": [
+      "Straw Man, which distorts a position rather than the option set",
+      "A genuine situation where only two options really do exist"
+    ]
+  },
+  {
+    "id": "anecdotal-evidence",
+    "formalName": "Anecdotal Evidence",
+    "plainName": "Just One Story",
+    "categoryId": "bad-evidence",
+    "tier": 1,
+    "definition": "Relying on a personal or isolated story in place of representative evidence.",
+    "example": "\"My uncle smoked his whole life and was fine, so the warnings are overblown.\"",
+    "lookFor": [
+      "'I know someone who...'",
+      "A single dramatic case used to overturn broad data",
+      "Personal experience presented as proof of a general trend"
+    ],
+    "commonConfusions": [
+      "Hasty Generalization, which is about sample size more than narrative",
+      "An illustrative example used alongside real evidence"
+    ]
+  },
+  {
+    "id": "bandwagon",
+    "formalName": "Bandwagon",
+    "plainName": "Everyone's Doing It",
+    "categoryId": "framing-bias",
+    "tier": 1,
+    "definition": "Claiming something is true or right because many people believe or do it.",
+    "example": "\"Everyone is switching to this app, so it must be the best one.\"",
+    "lookFor": [
+      "'Everyone knows / everyone is doing it'",
+      "Popularity offered as evidence of truth or quality",
+      "Pressure not to be the odd one out"
+    ],
+    "commonConfusions": [
+      "Appeal to Pity or Fear, which use other emotions",
+      "Citing genuine expert consensus, which is different from mere popularity"
+    ]
+  },
+  {
+    "id": "straw-man",
+    "formalName": "Straw Man",
+    "plainName": "Distorting the Argument",
+    "categoryId": "distorted-choices",
+    "tier": 1,
+    "definition": "Misrepresenting someone's position to make it easier to attack.",
+    "example": "\"You want to fund the library? So you think we should ignore the roads entirely.\"",
+    "lookFor": [
+      "An exaggerated or invented version of an opponent's view",
+      "'So what you're really saying is...'",
+      "Attacking a claim no one actually made"
+    ],
+    "commonConfusions": [
+      "False Dilemma, which limits options rather than distorting a stance",
+      "A fair, accurate restatement of an opposing view"
+    ]
+  },
+  {
+    "id": "appeal-to-fear",
+    "formalName": "Appeal to Fear",
+    "plainName": "Scaring You Into Agreement",
+    "categoryId": "emotional-manipulation",
+    "tier": 2,
+    "definition": "Substituting a threat or frightening image for an actual argument.",
+    "example": "\"Vote for this or your family will not be safe.\"",
+    "lookFor": [
+      "Vivid danger with no evidence it will happen",
+      "Pressure to act now to avoid catastrophe",
+      "Emotion doing the work a reason should"
+    ],
+    "commonConfusions": [
+      "Appeal to Pity, which targets sympathy rather than fear",
+      "A legitimate, evidence-based warning about real risk"
+    ]
+  },
+  {
+    "id": "post-hoc",
+    "formalName": "Post Hoc",
+    "plainName": "After This, Therefore Because of This",
+    "categoryId": "causation-errors",
+    "tier": 2,
+    "definition": "Assuming that because one event followed another, the first caused the second.",
+    "example": "\"Sales rose after we changed the logo, so the logo caused the increase.\"",
+    "lookFor": [
+      "Cause inferred purely from timing",
+      "No mention of other possible explanations",
+      "'Ever since we did X, Y started happening'"
+    ],
+    "commonConfusions": [
+      "Correlation/Causation confusion in general",
+      "A causal claim that is actually backed by a controlled comparison"
+    ]
+  },
+  {
+    "id": "tu-quoque",
+    "formalName": "Tu Quoque",
+    "plainName": "Whataboutism",
+    "categoryId": "personal-attack",
+    "tier": 4,
+    "definition": "Dismissing criticism by pointing out that the critic is guilty of the same thing, rather than addressing the criticism.",
+    "example": "\"You say I'm late, but you were late twice last week.\"",
+    "lookFor": [
+      "'What about you / what about them'",
+      "Deflecting a charge by accusing the accuser",
+      "No engagement with the original point"
+    ],
+    "commonConfusions": [
+      "Ad Hominem, which attacks character broadly rather than alleging hypocrisy",
+      "A fair observation that someone is applying a double standard"
+    ]
+  },
+  {
+    "id": "appeal-to-pity",
+    "formalName": "Appeal to Pity",
+    "plainName": "Playing on Sympathy",
+    "categoryId": "emotional-manipulation",
+    "tier": 4,
+    "definition": "Using guilt or sympathy to win a point that the evidence does not support.",
+    "example": "\"You should give me the grade — I studied so hard and I'll lose my scholarship.\"",
+    "lookFor": [
+      "Hardship offered as a reason to accept a claim",
+      "Focus on consequences for the speaker, not the merits",
+      "'After everything I've been through...'"
+    ],
+    "commonConfusions": [
+      "Appeal to Fear, which threatens rather than evokes pity",
+      "A relevant appeal to compassion in a genuinely moral decision"
+    ]
+  },
+  {
+    "id": "hasty-generalization",
+    "formalName": "Hasty Generalization",
+    "plainName": "Jumping to a Rule",
+    "categoryId": "bad-evidence",
+    "tier": 5,
+    "definition": "Drawing a broad conclusion from a sample that is too small or unrepresentative.",
+    "example": "\"Two coworkers were rude, so this whole company is toxic.\"",
+    "lookFor": [
+      "A sweeping claim from one or two cases",
+      "'Always', 'never', 'everyone' after a tiny sample",
+      "No mention of how typical the examples are"
+    ],
+    "commonConfusions": [
+      "Anecdotal Evidence, which leans on a single vivid story",
+      "A well-supported generalization backed by representative data"
+    ]
+  },
+  {
+    "id": "correlation-causation",
+    "formalName": "Correlation/Causation",
+    "plainName": "Linked Means Caused",
+    "categoryId": "causation-errors",
+    "tier": 5,
+    "definition": "Treating two things that vary together as proof that one causes the other.",
+    "example": "\"Cities with more bookstores have higher incomes, so bookstores raise income.\"",
+    "lookFor": [
+      "Two trends moving together presented as cause and effect",
+      "No consideration of a shared underlying cause",
+      "'X is linked to Y' read as 'X causes Y'"
+    ],
+    "commonConfusions": [
+      "Post Hoc, which is specifically about time order",
+      "A causal claim supported by more than the correlation alone"
+    ]
+  },
+  {
+    "id": "loaded-language",
+    "formalName": "Loaded Language",
+    "plainName": "Slanted Wording",
+    "categoryId": "framing-bias",
+    "tier": 6,
+    "definition": "Using emotionally charged words to push a conclusion in place of argument.",
+    "example": "\"Only a reckless extremist would question this sensible, common-sense plan.\"",
+    "lookFor": [
+      "Charged adjectives doing persuasive work",
+      "Praise or smear words instead of reasons",
+      "Wording that pre-decides the verdict"
+    ],
+    "commonConfusions": [
+      "Appeal to Fear, when the charged words specifically threaten",
+      "Strong but accurate description backed by evidence"
+    ]
+  },
+  {
+    "id": "red-herring",
+    "formalName": "Red Herring",
+    "plainName": "Changing the Subject",
+    "categoryId": "distorted-choices",
+    "tier": 8,
+    "definition": "Introducing an irrelevant topic to divert attention from the original issue.",
+    "example": "\"Asked about the budget overrun, the manager began talking about how much overtime the team had been working.\"",
+    "lookFor": [
+      "A pivot to an unrelated but emotionally charged topic",
+      "Avoidance of the actual question or claim",
+      "'But what about...' before changing direction"
+    ],
+    "commonConfusions": [
+      "Tu Quoque, which deflects with hypocrisy specifically",
+      "A genuinely related side point introduced honestly"
+    ]
+  },
+  {
+    "id": "slippery-slope",
+    "formalName": "Slippery Slope",
+    "plainName": "If This, Then Disaster",
+    "categoryId": "causation-errors",
+    "tier": 8,
+    "definition": "Claiming a small first step will inevitably lead to extreme consequences, with no evidence for the chain.",
+    "example": "\"If we let students retake one quiz, they'll demand do-overs on every test, and grades will become meaningless.\"",
+    "lookFor": [
+      "A chain of dire predictions from a small action",
+      "No mechanism connecting each step to the next",
+      "Words like 'before you know it' or 'inevitably'"
+    ],
+    "commonConfusions": [
+      "Appeal to Fear, which threatens broadly rather than chaining steps",
+      "A well-supported causal chain backed by evidence"
+    ]
+  },
+  {
+    "id": "begging-the-question",
+    "formalName": "Begging the Question",
+    "plainName": "Circular Reasoning",
+    "categoryId": "bad-argument-form",
+    "tier": 8,
+    "definition": "Restating the conclusion as a premise — assuming what you are supposed to prove.",
+    "example": "\"This policy is the best choice because no better policy exists.\"",
+    "lookFor": [
+      "A premise that just rephrases the conclusion",
+      "Definitions that quietly smuggle in the conclusion",
+      "Arguments that move in a small circle"
+    ],
+    "commonConfusions": [
+      "Bandwagon, which appeals to popularity rather than assuming the conclusion",
+      "A definition that supports a claim genuinely independent of the conclusion"
+    ]
+  },
+  {
+    "id": "appeal-to-authority",
+    "formalName": "Appeal to Authority",
+    "plainName": "Because They Said So",
+    "categoryId": "bad-evidence",
+    "tier": 8,
+    "definition": "Citing an authority whose expertise doesn't apply, or treating their word as final without evidence.",
+    "example": "\"A famous actor swears by this supplement, so it must really work.\"",
+    "lookFor": [
+      "An expert in a different field used to vouch for the claim",
+      "'Doctors recommend' with no study or specifics",
+      "Title or fame standing in for evidence"
+    ],
+    "commonConfusions": [
+      "Bandwagon, which cites a crowd rather than an authority",
+      "Legitimate citation of a qualified expert backed by evidence"
+    ]
+  },
+  {
+    "id": "cherry-picking",
+    "formalName": "Cherry-Picking",
+    "plainName": "Only Favorable Examples",
+    "categoryId": "bad-evidence",
+    "tier": 8,
+    "definition": "Selecting only the evidence that supports a claim while ignoring contrary evidence.",
+    "example": "\"Three studies show our product works (ignoring five that found no effect).\"",
+    "lookFor": [
+      "Only positive cases highlighted; failures missing",
+      "'Our top customers say...' with no overall data",
+      "Statistics presented without their counter-examples"
+    ],
+    "commonConfusions": [
+      "Anecdotal Evidence, which uses one story rather than picking from many",
+      "A fair summary that acknowledges contrary evidence"
+    ]
+  },
+  {
+    "id": "false-equivalence",
+    "formalName": "False Equivalence",
+    "plainName": "Equating Unequal Things",
+    "categoryId": "bad-argument-form",
+    "tier": 8,
+    "definition": "Treating two things as roughly equal in some important way when they really aren't.",
+    "example": "\"Skipping one staff meeting is just as bad as missing a customer deadline.\"",
+    "lookFor": [
+      "'Just as bad as' for very different things",
+      "Comparisons that ignore differences in scale, impact, or context",
+      "Both-sidesism that flattens real distinctions"
+    ],
+    "commonConfusions": [
+      "Straw Man, which distorts a position rather than comparing two things",
+      "An accurate comparison that does match in the relevant way"
+    ]
+  }
+]

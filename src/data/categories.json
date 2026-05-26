@@ -1,0 +1,37 @@
+[
+  {
+    "id": "personal-attack",
+    "name": "Personal Attack",
+    "description": "Targeting the person making an argument instead of the argument itself."
+  },
+  {
+    "id": "bad-evidence",
+    "name": "Bad Evidence",
+    "description": "Conclusions built on weak, missing, or unrepresentative support."
+  },
+  {
+    "id": "distorted-choices",
+    "name": "Distorted Choices",
+    "description": "Misrepresenting the available options or an opponent's position."
+  },
+  {
+    "id": "emotional-manipulation",
+    "name": "Emotional Manipulation",
+    "description": "Using fear, pity, or flattery in place of reasons."
+  },
+  {
+    "id": "causation-errors",
+    "name": "Causation Errors",
+    "description": "Mistaking sequence or correlation for cause."
+  },
+  {
+    "id": "framing-bias",
+    "name": "Framing & Bias",
+    "description": "Steering judgement through selective framing or loaded presentation."
+  },
+  {
+    "id": "bad-argument-form",
+    "name": "Bad Argument Form",
+    "description": "Structural flaws where the argument's shape, not its content, is the problem."
+  }
+]

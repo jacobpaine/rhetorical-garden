@@ -1,0 +1,11 @@
+[
+  { "id": "tier-1", "index": 1, "name": "Tier 1", "description": "Clear, single fallacies in short passages." },
+  { "id": "tier-2", "index": 2, "name": "Tier 2", "description": "Mixed fallacies; the count is hidden." },
+  { "id": "tier-3", "index": 3, "name": "Review I", "description": "A review checkpoint — always open. Some passages contain no fallacies.", "isReview": true },
+  { "id": "tier-4", "index": 4, "name": "Tier 4", "description": "New fallacies join the mix; subtler writing." },
+  { "id": "tier-5", "index": 5, "name": "Tier 5", "description": "More fallacies and tighter distractors." },
+  { "id": "tier-6", "index": 6, "name": "Tier 6", "description": "The growing taxonomy in realistic passages." },
+  { "id": "tier-7", "index": 7, "name": "Review II", "description": "A second review checkpoint — always open.", "isReview": true },
+  { "id": "tier-8", "index": 8, "name": "Tier 8", "description": "Subtler moves: diversion, circular reasoning, misplaced authority." },
+  { "id": "tier-9", "index": 9, "name": "Final Review", "description": "A capstone review — always open. Mark only what is truly faulty.", "isReview": true }
+]

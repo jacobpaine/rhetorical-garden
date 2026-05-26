@@ -1,0 +1,167 @@
+{
+  "id": "capstone-review",
+  "title": "Final Review: The Capstone",
+  "tierId": "tier-9",
+  "kind": "review",
+  "showFallacyCount": false,
+  "tags": ["science-claim", "public-policy", "technology"],
+  "intro": {
+    "description": "The capstone. A passage may hold anywhere from zero to many fallacies — including the subtler moves introduced in Tier 8. Read every paragraph before deciding what to mark.",
+    "themes": ["careful reading", "full taxonomy"]
+  },
+  "variants": [
+    {
+      "id": "capstone-review-v1",
+      "passages": [
+        {
+          "id": "rev9-v1-p1",
+          "title": "A Climate Report",
+          "paragraphs": [
+            {
+              "id": "rev9-v1-p1-para1",
+              "sentences": [
+                { "id": "rev9-v1-p1-s1", "text": "A working group reviewed thirty years of regional rainfall and temperature records." },
+                { "id": "rev9-v1-p1-s2", "text": "They compared the regional patterns against larger global averages to control for shared trends." },
+                { "id": "rev9-v1-p1-s3", "text": "The data sets came from three independent agencies with different collection methods." },
+                { "id": "rev9-v1-p1-s4", "text": "Any reading flagged as a sensor error was excluded with a clear note in the appendix." },
+                { "id": "rev9-v1-p1-s5", "text": "The team pre-registered which patterns they expected to find before running their main analysis." }
+              ]
+            },
+            {
+              "id": "rev9-v1-p1-para2",
+              "sentences": [
+                { "id": "rev9-v1-p1-s6", "text": "On average, the regional warming trend tracked closely with the global mean." },
+                { "id": "rev9-v1-p1-s7", "text": "Rainfall variability rose more than the long-term average would predict." },
+                { "id": "rev9-v1-p1-s8", "text": "The report distinguishes well-supported findings from those that remain tentative." },
+                { "id": "rev9-v1-p1-s9", "text": "Two cooperative outside reviewers checked the calculations and noted no errors." },
+                { "id": "rev9-v1-p1-s10", "text": "Where assumptions could swing the conclusions, the team modelled both directions." }
+              ]
+            },
+            {
+              "id": "rev9-v1-p1-para3",
+              "sentences": [
+                { "id": "rev9-v1-p1-s11", "text": "The committee recommends another five years of monitoring before redrawing the planning maps." },
+                { "id": "rev9-v1-p1-s12", "text": "Until then, only the most robust findings will guide infrastructure decisions." },
+                { "id": "rev9-v1-p1-s13", "text": "A public dashboard will publish updates as new data arrive each season." },
+                { "id": "rev9-v1-p1-s14", "text": "If the long-term trend reverses, the recommendations will be revised accordingly." },
+                { "id": "rev9-v1-p1-s15", "text": "All raw data and code are posted for any team that wants to reproduce the analysis." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [],
+      "hints": [
+        { "passageId": "rev9-v1-p1", "step": 1, "kind": "category", "text": "Strong, hedged evidence is not a fallacy — check whether any claim overreaches." },
+        { "passageId": "rev9-v1-p1", "step": 2, "kind": "location", "text": "Every paragraph states method, limits, or next steps. Look for overreach you do not find here." },
+        { "passageId": "rev9-v1-p1", "step": 3, "kind": "label", "text": "This report reasons carefully and contains no fallacy. Marking nothing may be the right call." }
+      ]
+    },
+    {
+      "id": "capstone-review-v2",
+      "passages": [
+        {
+          "id": "rev9-v2-p1",
+          "title": "A Heated School-Board Memo",
+          "paragraphs": [
+            {
+              "id": "rev9-v2-p1-para1",
+              "sentences": [
+                { "id": "rev9-v2-p1-s1", "text": "The board met last month to discuss the proposed phone policy update." },
+                { "id": "rev9-v2-p1-s2", "text": "Several teachers had written letters supporting limits on classroom phone use." },
+                { "id": "rev9-v2-p1-s3", "text": "Asked about enforcement costs, the chair pivoted to a long story about last year's bake sale." },
+                { "id": "rev9-v2-p1-s4", "text": "The principal shared survey data from three nearby districts." },
+                { "id": "rev9-v2-p1-s5", "text": "A retired general endorsed the policy at an earlier meeting, so its educational case must be sound." }
+              ]
+            },
+            {
+              "id": "rev9-v2-p1-para2",
+              "sentences": [
+                { "id": "rev9-v2-p1-s6", "text": "The vote drew applause from supporters in the audience." },
+                { "id": "rev9-v2-p1-s7", "text": "Critics argued that better evidence would strengthen the case." },
+                { "id": "rev9-v2-p1-s8", "text": "If we ban phones during instruction, families will demand bans during lunch, then on the buses, then in their own homes." },
+                { "id": "rev9-v2-p1-s9", "text": "The board promised to publish the meeting transcript online." },
+                { "id": "rev9-v2-p1-s10", "text": "The superintendent asked for a phased pilot before any district-wide rule." }
+              ]
+            },
+            {
+              "id": "rev9-v2-p1-para3",
+              "sentences": [
+                { "id": "rev9-v2-p1-s11", "text": "Three classrooms participated in a short pilot last spring with mixed results." },
+                { "id": "rev9-v2-p1-s12", "text": "The supporters' brief highlighted the two classrooms where attention scores rose, while leaving out the third." },
+                { "id": "rev9-v2-p1-s13", "text": "A second-round pilot is scheduled for the fall semester." },
+                { "id": "rev9-v2-p1-s14", "text": "The board will share the full results before making any permanent change." },
+                { "id": "rev9-v2-p1-s15", "text": "Comments from families remain open until the end of the month." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        { "passageId": "rev9-v2-p1", "scope": "sentence", "targetId": "rev9-v2-p1-s3", "fallacyId": "red-herring", "rationale": "An enforcement-cost question is dodged by switching to an unrelated bake-sale anecdote." },
+        { "passageId": "rev9-v2-p1", "scope": "sentence", "targetId": "rev9-v2-p1-s5", "fallacyId": "appeal-to-authority", "rationale": "A retired general's endorsement is used to vouch for an educational policy outside their expertise." },
+        { "passageId": "rev9-v2-p1", "scope": "sentence", "targetId": "rev9-v2-p1-s8", "fallacyId": "slippery-slope", "rationale": "A chain of dire predictions — buses to homes — is asserted with no mechanism connecting the steps." },
+        { "passageId": "rev9-v2-p1", "scope": "sentence", "targetId": "rev9-v2-p1-s12", "fallacyId": "cherry-picking", "rationale": "Only the two classrooms where scores rose are highlighted; the third is omitted." }
+      ],
+      "hints": [
+        { "passageId": "rev9-v2-p1", "step": 1, "kind": "category", "text": "Look for a Diversion, a Misplaced Authority, a Sliding Chain, and Selective evidence." },
+        { "passageId": "rev9-v2-p1", "step": 2, "kind": "location", "text": "Four sentences do persuasive work the evidence should — about one per paragraph plus one." },
+        { "passageId": "rev9-v2-p1", "step": 3, "kind": "label", "text": "'pivoted to a bake sale' = Red Herring; 'retired general endorsed' = Appeal to Authority; 'lunch, then buses, then homes' = Slippery Slope; 'two rose, the third omitted' = Cherry-Picking." }
+      ]
+    },
+    {
+      "id": "capstone-review-v3",
+      "passages": [
+        {
+          "id": "rev9-v3-p1",
+          "title": "A Drone-Tracking Op-Ed",
+          "paragraphs": [
+            {
+              "id": "rev9-v3-p1-para1",
+              "sentences": [
+                { "id": "rev9-v3-p1-s1", "text": "The city is debating a proposal to require delivery drones to carry tracking beacons." },
+                { "id": "rev9-v3-p1-s2", "text": "Supporters argue beacons would help recover lost packages and deter theft." },
+                { "id": "rev9-v3-p1-s3", "text": "The drone-tracking law is the right move because tracking drones is exactly what well-run cities do." },
+                { "id": "rev9-v3-p1-s4", "text": "Opponents say the cost would fall mostly on small couriers." },
+                { "id": "rev9-v3-p1-s5", "text": "Failing to require beacons is essentially the same as legalizing theft from every porch." }
+              ]
+            },
+            {
+              "id": "rev9-v3-p1-para2",
+              "sentences": [
+                { "id": "rev9-v3-p1-s6", "text": "The city's tech committee released a draft cost estimate for public review." },
+                { "id": "rev9-v3-p1-s7", "text": "When asked about hardware compatibility, the sponsor changed the subject to citywide bike-lane progress." },
+                { "id": "rev9-v3-p1-s8", "text": "A famous tech executive from a different industry has called the bill brilliant, which settles the question." },
+                { "id": "rev9-v3-p1-s9", "text": "A working group is comparing similar laws in three other cities." },
+                { "id": "rev9-v3-p1-s10", "text": "If we require beacons today, by next year we'll be tracking grocery carts and house keys, and freedom will be gone." }
+              ]
+            },
+            {
+              "id": "rev9-v3-p1-para3",
+              "sentences": [
+                { "id": "rev9-v3-p1-s11", "text": "Three small couriers in last quarter's pilot reported smooth integration, proving the program is industry-ready." },
+                { "id": "rev9-v3-p1-s12", "text": "The committee will hold a public hearing next month." },
+                { "id": "rev9-v3-p1-s13", "text": "A revised draft is expected after the hearing." },
+                { "id": "rev9-v3-p1-s14", "text": "Both supporters and critics have submitted written testimony for the record." },
+                { "id": "rev9-v3-p1-s15", "text": "The full text and amendments will be posted online." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        { "passageId": "rev9-v3-p1", "scope": "sentence", "targetId": "rev9-v3-p1-s3", "fallacyId": "begging-the-question", "rationale": "The premise restates the conclusion — tracking is right because tracking is what good cities do." },
+        { "passageId": "rev9-v3-p1", "scope": "sentence", "targetId": "rev9-v3-p1-s5", "fallacyId": "false-equivalence", "rationale": "Not requiring beacons is treated as morally equivalent to legalizing theft — very different things." },
+        { "passageId": "rev9-v3-p1", "scope": "sentence", "targetId": "rev9-v3-p1-s7", "fallacyId": "red-herring", "rationale": "A hardware-compatibility question is dodged by pivoting to bike lanes." },
+        { "passageId": "rev9-v3-p1", "scope": "sentence", "targetId": "rev9-v3-p1-s8", "fallacyId": "appeal-to-authority", "rationale": "An executive from a different industry is cited to settle a question outside their expertise." },
+        { "passageId": "rev9-v3-p1", "scope": "sentence", "targetId": "rev9-v3-p1-s10", "fallacyId": "slippery-slope", "rationale": "A chain from drones to grocery carts and house keys is asserted without supporting steps." },
+        { "passageId": "rev9-v3-p1", "scope": "sentence", "targetId": "rev9-v3-p1-s11", "fallacyId": "cherry-picking", "rationale": "Only three smooth-integration cases are highlighted; the rest of the pilot results are unmentioned." }
+      ],
+      "hints": [
+        { "passageId": "rev9-v3-p1", "step": 1, "kind": "category", "text": "Six newer moves: Circular reasoning, False equivalence, Diversion, Misplaced authority, a Sliding chain, and Selective evidence." },
+        { "passageId": "rev9-v3-p1", "step": 2, "kind": "location", "text": "Six sentences do persuasive work; the rest are neutral reports of process." },
+        { "passageId": "rev9-v3-p1", "step": 3, "kind": "label", "text": "'right because tracking is right' = Begging the Question; 'same as legalizing theft' = False Equivalence; 'pivoted to bike lanes' = Red Herring; 'a different-industry executive settles it' = Appeal to Authority; 'grocery carts and house keys' = Slippery Slope; 'three smooth cases, rest omitted' = Cherry-Picking." }
+      ]
+    }
+  ]
+}

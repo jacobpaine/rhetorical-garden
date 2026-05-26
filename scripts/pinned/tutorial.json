@@ -1,0 +1,183 @@
+{
+  "id": "tutorial-1",
+  "title": "Spotting an Attack on the Person",
+  "tierId": "tier-1",
+  "kind": "tutorial",
+  "showFallacyCount": true,
+  "tags": [
+    "workplace"
+  ],
+  "variants": [
+    {
+      "id": "tutorial-1-v1",
+      "passages": [
+        {
+          "id": "tut1-v1-p1",
+          "title": "A Meeting Disagreement",
+          "paragraphs": [
+            {
+              "id": "tut1-v1-p1-para1",
+              "sentences": [
+                {
+                  "id": "tut1-v1-p1-s1",
+                  "text": "Dana proposed moving the team to a four-day week and shared a one-page summary of the trial data."
+                },
+                {
+                  "id": "tut1-v1-p1-s2",
+                  "text": "Of course Dana would say that — she's lazy and just wants more days off."
+                },
+                {
+                  "id": "tut1-v1-p1-s3",
+                  "text": "We should look at whether the trial actually improved output before deciding."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        {
+          "passageId": "tut1-v1-p1",
+          "scope": "sentence",
+          "targetId": "tut1-v1-p1-s2",
+          "fallacyId": "ad-hominem",
+          "rationale": "Instead of engaging with Dana's data, the speaker attacks Dana's character ('lazy') and motive. That is a textbook Ad Hominem."
+        }
+      ],
+      "hints": [
+        {
+          "passageId": "tut1-v1-p1",
+          "step": 1,
+          "kind": "category",
+          "text": "Look for a Personal Attack — does someone go after the speaker instead of the idea?"
+        },
+        {
+          "passageId": "tut1-v1-p1",
+          "step": 2,
+          "kind": "location",
+          "text": "Focus on the middle sentence, where Dana herself is described."
+        },
+        {
+          "passageId": "tut1-v1-p1",
+          "step": 3,
+          "kind": "label",
+          "text": "Calling Dana 'lazy' to dismiss her proposal is Ad Hominem."
+        }
+      ]
+    },
+    {
+      "id": "tutorial-1-v2",
+      "passages": [
+        {
+          "id": "tut1-v2-p1",
+          "title": "A Budget Debate",
+          "paragraphs": [
+            {
+              "id": "tut1-v2-p1-para1",
+              "sentences": [
+                {
+                  "id": "tut1-v2-p1-s1",
+                  "text": "Raj laid out a detailed plan to cut software costs by consolidating our tools."
+                },
+                {
+                  "id": "tut1-v2-p1-s2",
+                  "text": "Why would we listen to Raj about money — he drives a beat-up car and can't manage his own finances."
+                },
+                {
+                  "id": "tut1-v2-p1-s3",
+                  "text": "Let's check whether the consolidation actually saves what he claims."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        {
+          "passageId": "tut1-v2-p1",
+          "scope": "sentence",
+          "targetId": "tut1-v2-p1-s2",
+          "fallacyId": "ad-hominem",
+          "rationale": "The speaker dismisses Raj's plan by mocking his personal finances rather than addressing the numbers. That is an Ad Hominem."
+        }
+      ],
+      "hints": [
+        {
+          "passageId": "tut1-v2-p1",
+          "step": 1,
+          "kind": "category",
+          "text": "Look for a Personal Attack — is someone judged instead of their argument?"
+        },
+        {
+          "passageId": "tut1-v2-p1",
+          "step": 2,
+          "kind": "location",
+          "text": "The middle sentence is about Raj himself, not his plan."
+        },
+        {
+          "passageId": "tut1-v2-p1",
+          "step": 3,
+          "kind": "label",
+          "text": "Attacking Raj's car and finances to reject his plan is Ad Hominem."
+        }
+      ]
+    },
+    {
+      "id": "tutorial-1-v3",
+      "passages": [
+        {
+          "id": "tut1-v3-p1",
+          "title": "A Design Review",
+          "paragraphs": [
+            {
+              "id": "tut1-v3-p1-para1",
+              "sentences": [
+                {
+                  "id": "tut1-v3-p1-s1",
+                  "text": "Mia presented research suggesting the checkout flow should be shortened to two steps."
+                },
+                {
+                  "id": "tut1-v3-p1-s2",
+                  "text": "We can ignore Mia's opinion — she's fresh out of school and obviously doesn't know the real world."
+                },
+                {
+                  "id": "tut1-v3-p1-s3",
+                  "text": "The usability data she gathered is worth reviewing on its own merits."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        {
+          "passageId": "tut1-v3-p1",
+          "scope": "sentence",
+          "targetId": "tut1-v3-p1-s2",
+          "fallacyId": "ad-hominem",
+          "rationale": "Mia's research is waved off by pointing at her age and inexperience instead of her findings. That is an Ad Hominem."
+        }
+      ],
+      "hints": [
+        {
+          "passageId": "tut1-v3-p1",
+          "step": 1,
+          "kind": "category",
+          "text": "Look for a Personal Attack — is the person targeted instead of the evidence?"
+        },
+        {
+          "passageId": "tut1-v3-p1",
+          "step": 2,
+          "kind": "location",
+          "text": "The middle sentence is about Mia, not her data."
+        },
+        {
+          "passageId": "tut1-v3-p1",
+          "step": 3,
+          "kind": "label",
+          "text": "Dismissing Mia as 'fresh out of school' to reject her work is Ad Hominem."
+        }
+      ]
+    }
+  ]
+}

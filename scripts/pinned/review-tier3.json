@@ -1,0 +1,165 @@
+{
+  "id": "boss-no-fallacy",
+  "title": "Review: Reading the Whole Argument",
+  "tierId": "tier-3",
+  "kind": "review",
+  "showFallacyCount": false,
+  "tags": ["public-policy", "science-claim"],
+  "intro": {
+    "description": "A review checkpoint. A passage may contain anywhere from zero to several fallacies — read the whole thing, then mark only what is genuinely faulty.",
+    "themes": ["careful reading", "public-policy"]
+  },
+  "variants": [
+    {
+      "id": "boss-no-fallacy-v1",
+      "passages": [
+        {
+          "id": "rev3-v1-p1",
+          "title": "A Measured Recommendation",
+          "paragraphs": [
+            {
+              "id": "rev3-v1-p1-para1",
+              "sentences": [
+                { "id": "rev3-v1-p1-s1", "text": "Last spring the city ran a six-month pilot of the new bus route in four neighborhoods." },
+                { "id": "rev3-v1-p1-s2", "text": "Ridership was logged automatically by the fare readers on every vehicle." },
+                { "id": "rev3-v1-p1-s3", "text": "The transit office compared the pilot corridors against three similar routes left unchanged." },
+                { "id": "rev3-v1-p1-s4", "text": "Weather and fuel prices were recorded so they could be accounted for later." },
+                { "id": "rev3-v1-p1-s5", "text": "Residents could submit comments through a short weekly form." }
+              ]
+            },
+            {
+              "id": "rev3-v1-p1-para2",
+              "sentences": [
+                { "id": "rev3-v1-p1-s6", "text": "Average commute times in the pilot corridors fell by about four minutes." },
+                { "id": "rev3-v1-p1-s7", "text": "The analysts noted that a mild winter may have made part of that gain easier." },
+                { "id": "rev3-v1-p1-s8", "text": "Satisfaction scores rose modestly, though the response rate was uneven." },
+                { "id": "rev3-v1-p1-s9", "text": "Two of the four neighborhoods showed almost no change at all." },
+                { "id": "rev3-v1-p1-s10", "text": "The report lists these limits plainly rather than glossing over them." }
+              ]
+            },
+            {
+              "id": "rev3-v1-p1-para3",
+              "sentences": [
+                { "id": "rev3-v1-p1-s11", "text": "Given the mixed picture, the board proposes extending the pilot for another year." },
+                { "id": "rev3-v1-p1-s12", "text": "A larger sample should make the seasonal effects easier to separate." },
+                { "id": "rev3-v1-p1-s13", "text": "The office will publish the raw ridership data alongside its next summary." },
+                { "id": "rev3-v1-p1-s14", "text": "If the extended trial shows no benefit, the route will return to its old form." },
+                { "id": "rev3-v1-p1-s15", "text": "No permanent change is recommended until the follow-up is complete." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [],
+      "hints": [
+        { "passageId": "rev3-v1-p1", "step": 1, "kind": "category", "text": "Ask whether any claim outruns its evidence — careful reasoning is not a fallacy." },
+        { "passageId": "rev3-v1-p1", "step": 2, "kind": "location", "text": "Notice the limits, comparisons, and follow-up. Look for overreach you won't find here." },
+        { "passageId": "rev3-v1-p1", "step": 3, "kind": "label", "text": "This brief reasons carefully and contains no fallacy. The right move may be to mark nothing." }
+      ]
+    },
+    {
+      "id": "boss-no-fallacy-v2",
+      "passages": [
+        {
+          "id": "rev3-v2-p1",
+          "title": "An Opinion Column",
+          "paragraphs": [
+            {
+              "id": "rev3-v2-p1-para1",
+              "sentences": [
+                { "id": "rev3-v2-p1-s1", "text": "The new bus route has quickly become a point of pride for the city." },
+                { "id": "rev3-v2-p1-s2", "text": "Supporters point to shorter waits and fuller buses during the morning rush." },
+                { "id": "rev3-v2-p1-s3", "text": "Anyone who still opposes the route is just a selfish driver who ignores their neighbors." },
+                { "id": "rev3-v2-p1-s4", "text": "The transit office has shared its ridership figures for anyone to review." },
+                { "id": "rev3-v2-p1-s5", "text": "Local businesses have offered mixed but mostly positive feedback." }
+              ]
+            },
+            {
+              "id": "rev3-v2-p1-para2",
+              "sentences": [
+                { "id": "rev3-v2-p1-s6", "text": "Critics raise fair questions about parking near the busiest stops." },
+                { "id": "rev3-v2-p1-s7", "text": "Either we expand the route to every district now, or the whole system will fall apart." },
+                { "id": "rev3-v2-p1-s8", "text": "City planners say a phased rollout is one option under discussion." },
+                { "id": "rev3-v2-p1-s9", "text": "The budget for the next phase has not yet been finalized." },
+                { "id": "rev3-v2-p1-s10", "text": "A public comment period is scheduled before any vote." }
+              ]
+            },
+            {
+              "id": "rev3-v2-p1-para3",
+              "sentences": [
+                { "id": "rev3-v2-p1-s11", "text": "Supporters argue the early results are encouraging, if still preliminary." },
+                { "id": "rev3-v2-p1-s12", "text": "We must approve the expansion immediately, before our children inherit a gridlocked, dying city." },
+                { "id": "rev3-v2-p1-s13", "text": "Opponents counter that more data would strengthen the case either way." },
+                { "id": "rev3-v2-p1-s14", "text": "The council has asked for a follow-up study before deciding." },
+                { "id": "rev3-v2-p1-s15", "text": "Both sides agree the next report should settle several open questions." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        { "passageId": "rev3-v2-p1", "scope": "sentence", "targetId": "rev3-v2-p1-s3", "fallacyId": "ad-hominem", "rationale": "It dismisses opponents by calling them selfish rather than answering their reasons." },
+        { "passageId": "rev3-v2-p1", "scope": "sentence", "targetId": "rev3-v2-p1-s7", "fallacyId": "false-dilemma", "rationale": "It offers only 'expand everywhere now' or 'collapse,' ignoring the phased option the very next sentence mentions." },
+        { "passageId": "rev3-v2-p1", "scope": "sentence", "targetId": "rev3-v2-p1-s12", "fallacyId": "appeal-to-fear", "rationale": "It pushes immediate approval with a frightening image instead of evidence." }
+      ],
+      "hints": [
+        { "passageId": "rev3-v2-p1", "step": 1, "kind": "category", "text": "Watch for a Personal Attack, a Distorted Choice, and an Emotional push — about one per paragraph." },
+        { "passageId": "rev3-v2-p1", "step": 2, "kind": "location", "text": "Most sentences report facts or open questions; three do persuasive work the evidence should." },
+        { "passageId": "rev3-v2-p1", "step": 3, "kind": "label", "text": "'selfish driver' = Ad Hominem; 'expand now or it all falls apart' = False Dilemma; 'gridlocked, dying city' = Appeal to Fear." }
+      ]
+    },
+    {
+      "id": "boss-no-fallacy-v3",
+      "passages": [
+        {
+          "id": "rev3-v3-p1",
+          "title": "The Riverside Debate",
+          "paragraphs": [
+            {
+              "id": "rev3-v3-p1-para1",
+              "sentences": [
+                { "id": "rev3-v3-p1-s1", "text": "The debate over the riverside development has grown heated this season." },
+                { "id": "rev3-v3-p1-s2", "text": "One developer says a friend's project across the state succeeded, so this one surely will too." },
+                { "id": "rev3-v3-p1-s3", "text": "City records show the proposal is still under environmental review." },
+                { "id": "rev3-v3-p1-s4", "text": "Most of the loudest voices online already back the plan, so it must be the right call." },
+                { "id": "rev3-v3-p1-s5", "text": "The planning office has posted the full application for public viewing." }
+              ]
+            },
+            {
+              "id": "rev3-v3-p1-para2",
+              "sentences": [
+                { "id": "rev3-v3-p1-s6", "text": "Opponents have asked for a traffic study before any approval." },
+                { "id": "rev3-v3-p1-s7", "text": "So the opponents apparently want the waterfront left to rot forever." },
+                { "id": "rev3-v3-p1-s8", "text": "The developer notes that permits in the next county were granted quickly." },
+                { "id": "rev3-v3-p1-s9", "text": "Ever since the rumor spread, nearby home prices ticked up, so the project is clearly already helping." },
+                { "id": "rev3-v3-p1-s10", "text": "Appraisers caution that many factors move home prices at once." }
+              ]
+            },
+            {
+              "id": "rev3-v3-p1-para3",
+              "sentences": [
+                { "id": "rev3-v3-p1-s11", "text": "Either the council approves the full plan tonight or the investment leaves for good." },
+                { "id": "rev3-v3-p1-s12", "text": "Staff say a smaller first phase remains on the table." },
+                { "id": "rev3-v3-p1-s13", "text": "A neutral consultant has been hired to review the figures." },
+                { "id": "rev3-v3-p1-s14", "text": "The council will hold one more hearing next week." },
+                { "id": "rev3-v3-p1-s15", "text": "Both sides expect the consultant's report to shape the final vote." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        { "passageId": "rev3-v3-p1", "scope": "sentence", "targetId": "rev3-v3-p1-s2", "fallacyId": "anecdotal-evidence", "rationale": "A single project elsewhere is offered as proof this one will succeed." },
+        { "passageId": "rev3-v3-p1", "scope": "sentence", "targetId": "rev3-v3-p1-s4", "fallacyId": "bandwagon", "rationale": "Online popularity is treated as proof the plan is right." },
+        { "passageId": "rev3-v3-p1", "scope": "sentence", "targetId": "rev3-v3-p1-s7", "fallacyId": "straw-man", "rationale": "A request for a traffic study is distorted into wanting the waterfront to rot." },
+        { "passageId": "rev3-v3-p1", "scope": "sentence", "targetId": "rev3-v3-p1-s9", "fallacyId": "post-hoc", "rationale": "A price uptick after a rumor is treated as proof the project caused it." },
+        { "passageId": "rev3-v3-p1", "scope": "sentence", "targetId": "rev3-v3-p1-s11", "fallacyId": "false-dilemma", "rationale": "It offers only 'approve tonight' or 'lose the investment,' ignoring the smaller phase named next." }
+      ],
+      "hints": [
+        { "passageId": "rev3-v3-p1", "step": 1, "kind": "category", "text": "Look for Bad Evidence, Framing by popularity, a Distorted argument, a Causation slip, and a Distorted choice." },
+        { "passageId": "rev3-v3-p1", "step": 2, "kind": "location", "text": "Five sentences are faulty; the rest report records, cautions, or next steps." },
+        { "passageId": "rev3-v3-p1", "step": 3, "kind": "label", "text": "friend's project = Anecdotal; 'loudest voices online' = Bandwagon; 'left to rot' = Straw Man; 'prices ticked up, so helping' = Post Hoc; 'approve tonight or it leaves' = False Dilemma." }
+      ]
+    }
+  ]
+}

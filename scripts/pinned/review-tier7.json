@@ -1,0 +1,167 @@
+{
+  "id": "final-review",
+  "title": "Review II: The Long Read",
+  "tierId": "tier-7",
+  "kind": "review",
+  "showFallacyCount": false,
+  "tags": ["science-claim", "politics", "workplace"],
+  "intro": {
+    "description": "The capstone review. A passage may hold anywhere from zero to many fallacies. Read all three paragraphs, then mark only what is genuinely faulty.",
+    "themes": ["careful reading", "mixed fallacies"]
+  },
+  "variants": [
+    {
+      "id": "final-review-v1",
+      "passages": [
+        {
+          "id": "rev7-v1-p1",
+          "title": "A Careful Brief",
+          "paragraphs": [
+            {
+              "id": "rev7-v1-p1-para1",
+              "sentences": [
+                { "id": "rev7-v1-p1-s1", "text": "A research team studied whether a new tutoring program improved reading scores." },
+                { "id": "rev7-v1-p1-s2", "text": "They enrolled students from six schools chosen to reflect the district." },
+                { "id": "rev7-v1-p1-s3", "text": "Half were assigned to the program and half to the usual curriculum at random." },
+                { "id": "rev7-v1-p1-s4", "text": "Scores were measured before the program began and again at the end of the year." },
+                { "id": "rev7-v1-p1-s5", "text": "The team wrote down what they expected to find before looking at the results." }
+              ]
+            },
+            {
+              "id": "rev7-v1-p1-para2",
+              "sentences": [
+                { "id": "rev7-v1-p1-s6", "text": "On average, the tutored group gained a few points more than the control group." },
+                { "id": "rev7-v1-p1-s7", "text": "The gain was smaller in the two largest schools." },
+                { "id": "rev7-v1-p1-s8", "text": "The authors report the size of the effect and how uncertain it is." },
+                { "id": "rev7-v1-p1-s9", "text": "They note that attendance varied and may have influenced the outcome." },
+                { "id": "rev7-v1-p1-s10", "text": "All of the anonymized data was published for others to check." }
+              ]
+            },
+            {
+              "id": "rev7-v1-p1-para3",
+              "sentences": [
+                { "id": "rev7-v1-p1-s11", "text": "The team recommends a second trial in a different district before scaling up." },
+                { "id": "rev7-v1-p1-s12", "text": "They list the questions the current study could not answer." },
+                { "id": "rev7-v1-p1-s13", "text": "Funding for any expansion would be released in stages tied to results." },
+                { "id": "rev7-v1-p1-s14", "text": "If the follow-up shows no gain, the program will be discontinued." },
+                { "id": "rev7-v1-p1-s15", "text": "The report frames its conclusion as promising but not yet settled." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [],
+      "hints": [
+        { "passageId": "rev7-v1-p1", "step": 1, "kind": "category", "text": "Strong, hedged evidence is not a fallacy — check whether any claim overreaches." },
+        { "passageId": "rev7-v1-p1", "step": 2, "kind": "location", "text": "Each paragraph states method, limits, or next steps. There may be nothing to mark." },
+        { "passageId": "rev7-v1-p1", "step": 3, "kind": "label", "text": "This study reasons carefully and contains no fallacy. Marking nothing may be correct." }
+      ]
+    },
+    {
+      "id": "final-review-v2",
+      "passages": [
+        {
+          "id": "rev7-v2-p1",
+          "title": "A Memo for the New Tool",
+          "paragraphs": [
+            {
+              "id": "rev7-v2-p1-para1",
+              "sentences": [
+                { "id": "rev7-v2-p1-s1", "text": "Management circulated a memo urging every team to adopt the new workflow tool." },
+                { "id": "rev7-v2-p1-s2", "text": "This bold, visionary change will leave only stubborn dinosaurs behind." },
+                { "id": "rev7-v2-p1-s3", "text": "Teams that already use the tool report finishing their sprints on time." },
+                { "id": "rev7-v2-p1-s4", "text": "Offices that switched tools last year also saw morale rise, so the tool clearly lifts morale." },
+                { "id": "rev7-v2-p1-s5", "text": "A trial period is available for teams that want to test it first." }
+              ]
+            },
+            {
+              "id": "rev7-v2-p1-para2",
+              "sentences": [
+                { "id": "rev7-v2-p1-s6", "text": "Some engineers worry about the time it will take to migrate." },
+                { "id": "rev7-v2-p1-s7", "text": "When one manager raised that concern, a colleague shot back that he had complained about the last tool too, so why listen to him now." },
+                { "id": "rev7-v2-p1-s8", "text": "The vendor offers training sessions throughout the transition." },
+                { "id": "rev7-v2-p1-s9", "text": "IT has documented the migration steps for each team." },
+                { "id": "rev7-v2-p1-s10", "text": "A rollback plan exists in case the switch causes problems." }
+              ]
+            },
+            {
+              "id": "rev7-v2-p1-para3",
+              "sentences": [
+                { "id": "rev7-v2-p1-s11", "text": "At the meeting, one lead pleaded that her team had endured such a brutal quarter that the budget simply must be approved." },
+                { "id": "rev7-v2-p1-s12", "text": "The finance office asked for the numbers behind each request." },
+                { "id": "rev7-v2-p1-s13", "text": "A decision is expected after the next planning review." },
+                { "id": "rev7-v2-p1-s14", "text": "Teams can submit written feedback until Friday." },
+                { "id": "rev7-v2-p1-s15", "text": "The final rollout schedule will be shared once the feedback is reviewed." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        { "passageId": "rev7-v2-p1", "scope": "sentence", "targetId": "rev7-v2-p1-s2", "fallacyId": "loaded-language", "rationale": "Charged words ('visionary,' 'stubborn dinosaurs') do the persuading instead of reasons." },
+        { "passageId": "rev7-v2-p1", "scope": "sentence", "targetId": "rev7-v2-p1-s4", "fallacyId": "correlation-causation", "rationale": "Morale rising alongside the switch is treated as proof the tool caused it." },
+        { "passageId": "rev7-v2-p1", "scope": "sentence", "targetId": "rev7-v2-p1-s7", "fallacyId": "tu-quoque", "rationale": "It deflects the concern by pointing at the manager's past complaints instead of answering it." },
+        { "passageId": "rev7-v2-p1", "scope": "sentence", "targetId": "rev7-v2-p1-s11", "fallacyId": "appeal-to-pity", "rationale": "It argues for the budget from a hard quarter rather than the request's merits." }
+      ],
+      "hints": [
+        { "passageId": "rev7-v2-p1", "step": 1, "kind": "category", "text": "Look for Loaded wording, a Causation slip, a Whataboutism deflection, and a Pity plea." },
+        { "passageId": "rev7-v2-p1", "step": 2, "kind": "location", "text": "Four sentences lean on rhetoric instead of reasons; the rest describe process." },
+        { "passageId": "rev7-v2-p1", "step": 3, "kind": "label", "text": "'visionary... dinosaurs' = Loaded Language; 'morale rose, so the tool lifts morale' = Correlation/Causation; 'you complained before' = Tu Quoque; 'such a brutal quarter' = Appeal to Pity." }
+      ]
+    },
+    {
+      "id": "final-review-v3",
+      "passages": [
+        {
+          "id": "rev7-v3-p1",
+          "title": "The Stadium Op-Ed",
+          "paragraphs": [
+            {
+              "id": "rev7-v3-p1-para1",
+              "sentences": [
+                { "id": "rev7-v3-p1-s1", "text": "The city is debating whether to fund the new downtown stadium." },
+                { "id": "rev7-v3-p1-s2", "text": "Ever since the team announced the plan, downtown sales rose, so the stadium is already boosting the economy." },
+                { "id": "rev7-v3-p1-s3", "text": "The mayor's office released a cost estimate for public review." },
+                { "id": "rev7-v3-p1-s4", "text": "Anyone against it is just a bitter cynic who hates progress." },
+                { "id": "rev7-v3-p1-s5", "text": "An independent firm was hired to check the projections." }
+              ]
+            },
+            {
+              "id": "rev7-v3-p1-para2",
+              "sentences": [
+                { "id": "rev7-v3-p1-s6", "text": "Supporters held a rally downtown last weekend." },
+                { "id": "rev7-v3-p1-s7", "text": "Either we build the stadium now or the city stays stuck in the past forever." },
+                { "id": "rev7-v3-p1-s8", "text": "Planners say several sites are still being compared." },
+                { "id": "rev7-v3-p1-s9", "text": "Polls in two other cities favored their stadiums, so ours is sure to be loved too." },
+                { "id": "rev7-v3-p1-s10", "text": "A public hearing is scheduled for next month." }
+              ]
+            },
+            {
+              "id": "rev7-v3-p1-para3",
+              "sentences": [
+                { "id": "rev7-v3-p1-s11", "text": "Most of the popular local accounts are sharing the plan, so it must be the right move." },
+                { "id": "rev7-v3-p1-s12", "text": "Reject the funding and watch the whole downtown collapse into ruin." },
+                { "id": "rev7-v3-p1-s13", "text": "Critics have asked for a detailed traffic and noise study." },
+                { "id": "rev7-v3-p1-s14", "text": "The council will review the consultant's findings before voting." },
+                { "id": "rev7-v3-p1-s15", "text": "Both sides expect that report to weigh heavily on the outcome." }
+              ]
+            }
+          ]
+        }
+      ],
+      "expected": [
+        { "passageId": "rev7-v3-p1", "scope": "sentence", "targetId": "rev7-v3-p1-s2", "fallacyId": "post-hoc", "rationale": "A rise in sales after the announcement is treated as proof the stadium caused it." },
+        { "passageId": "rev7-v3-p1", "scope": "sentence", "targetId": "rev7-v3-p1-s4", "fallacyId": "ad-hominem", "rationale": "It labels opponents 'bitter cynics' instead of answering their objections." },
+        { "passageId": "rev7-v3-p1", "scope": "sentence", "targetId": "rev7-v3-p1-s7", "fallacyId": "false-dilemma", "rationale": "It offers only 'build now' or 'stuck forever,' ignoring other options the piece itself mentions." },
+        { "passageId": "rev7-v3-p1", "scope": "sentence", "targetId": "rev7-v3-p1-s9", "fallacyId": "hasty-generalization", "rationale": "Two other cities are used to conclude ours will surely be loved too." },
+        { "passageId": "rev7-v3-p1", "scope": "sentence", "targetId": "rev7-v3-p1-s11", "fallacyId": "bandwagon", "rationale": "Popularity among online accounts is treated as proof the plan is right." },
+        { "passageId": "rev7-v3-p1", "scope": "sentence", "targetId": "rev7-v3-p1-s12", "fallacyId": "appeal-to-fear", "rationale": "It pushes against rejection with a frightening image of collapse instead of evidence." }
+      ],
+      "hints": [
+        { "passageId": "rev7-v3-p1", "step": 1, "kind": "category", "text": "Several moves here: a Causation slip, a Personal attack, a Distorted choice, a Hasty rule, a Popularity appeal, and a Scare." },
+        { "passageId": "rev7-v3-p1", "step": 2, "kind": "location", "text": "Six sentences are faulty; the rest are neutral reports of process." },
+        { "passageId": "rev7-v3-p1", "step": 3, "kind": "label", "text": "'sales rose, so boosting' = Post Hoc; 'bitter cynic' = Ad Hominem; 'build now or stuck forever' = False Dilemma; 'two cities, so ours too' = Hasty Generalization; 'popular accounts sharing' = Bandwagon; 'reject and downtown collapses' = Appeal to Fear." }
+      ]
+    }
+  ]
+}
