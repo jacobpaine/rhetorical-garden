@@ -65,7 +65,7 @@ export function HomePage() {
         <h1 className="text-2xl font-bold tracking-tight">Tend your garden of reasoning.</h1>
         <p className="mt-1 text-ink-500 dark:text-ink-300">
           Each petal is a lesson and each ring is a tier. Clear lessons to make the
-          flower bloom outward — start from the seed at the center.
+          garden bloom outward — start from the center.
         </p>
       </section>
 
