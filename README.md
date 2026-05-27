@@ -340,6 +340,28 @@ links to work on refresh, configure CloudFront to serve `index.html` for 403
 and 404 responses (custom error responses returning `/index.html` with a `200`
 response code).
 
+### Recommended security response headers
+
+The app fetches no remote scripts, fonts, images, or APIs — everything is
+bundled at build time — so a tight Content-Security-Policy is essentially free.
+Attach a CloudFront **response headers policy** (custom headers section) with:
+
+```
+Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+```
+
+Notes:
+- `style-src 'unsafe-inline'` is required because Tailwind ships an inline
+  `<style>` block in `index.html`. Drop it if you switch to nonces.
+- `frame-ancestors 'none'` prevents clickjacking by forbidding the site from
+  being framed.
+- `Strict-Transport-Security` should only be enabled once you've confirmed all
+  traffic is on HTTPS (CloudFront default is HTTPS-only behavior, fine).
+
 ## CI
 
 `.github/workflows/build.yml` runs `pnpm install` + `pnpm build` on pushes to
