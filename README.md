@@ -10,7 +10,7 @@ The word "fallacy" is used broadly here — it covers weak evidence, framing and
 bias, loaded language, emotional manipulation, causation errors, common
 propaganda techniques, and classic logical fallacies.
 
-**Repo:** <https://github.com/jacobpaine/rhetorical-garden>
+**Live:** <https://rhetorical.jacobpaine.com/>
 
 ```bash
 git clone https://github.com/jacobpaine/rhetorical-garden.git
